@@ -1,0 +1,48 @@
+
+
+@media (max-width: 480px) { 
+	section.slider {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) { 
+	nav.top-menu {
+		display: none;
+	}
+	section.main-info .about {
+		position: static;
+	}
+	section.types .item-type{
+		height: auto;
+		margin-bottom: 20px;
+	}
+	section.car-list .car-panel .description {
+		margin: 15px 0;
+	}
+	section.detail-car .car-info {
+		text-align: center;
+		margin-top: 20px;
+	}
+	section.order .order-dates .start-rent {
+		margin-bottom: 20px;
+	}
+	
+}
+
+@media (max-width: 992px) {
+	body{
+		margin-bottom: 400px;
+	}
+	footer{
+		height: 400px;
+		text-align: center;
+	}
+	footer .site-info{
+		text-align: center;
+	}
+}
+
+@media (min-width: 1200px) {
+	
+}

@@ -1,0 +1,197 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+html{
+	position: relative;
+	min-height: 100%;
+}
+body{
+	margin-bottom: 200px;
+}
+div.hr {
+	border-bottom: 1px solid #03af48;
+	margin: 10px auto;
+	opacity: .7;
+}
+section {
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+.container > h2 {
+	margin-bottom: 30px;
+}
+/*Header*/
+.top-navbar .brand span {
+	color: #ccc;
+}
+.top-navbar .brand:hover {
+	color: #fff;
+}
+.top-navbar .phone {
+	font-weight: bold;
+}
+.top-navbar .callback {
+	background-color: #cea202;
+	border-radius: 5px;
+	padding: 5px 10px;
+	margin: 14.5px 25px;
+	margin-right: 75px;
+}
+.top-navbar a:hover {
+	text-decoration: none;
+}
+ul.top-menu li {
+	text-align: center;
+}
+ul.top-menu li:hover {
+	background-color: #161f28;
+}
+.top-menu ul {
+	width: 520px;
+	margin: auto;
+}
+.top-menu ul > li {
+	display: inline-block;
+	margin-right: 30px;
+}
+.top-menu ul > li a {
+	color: #000;
+}
+.top-menu .hr {
+	width: 300px;
+}
+/*Main-info*/
+section.main-info .info-part {
+	position: relative;
+}
+section.main-info .info-part > div {
+	color: #fff;
+	padding: 10px 15px;
+}
+section.main-info .about {
+	background-color: #7c9c9e;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+section.main-info .news {
+	background-color: #333C4F;
+	float: right;
+}
+section.main-info .news h3 a {
+	color: #fff;
+}
+section.main-info .news h3 a:hover {
+	text-decoration: none;
+}
+/*Car-categories*/
+section.categories {
+	margin-top: 50px;
+}
+section.categories .item-category{
+	text-align: center;
+	min-height: 300px;
+}
+section.categories .item-category img {
+	width: 200px;
+}
+/*Brand*/
+.brand-list{
+	text-align: center;
+	margin-bottom: 60px;
+}
+.brand .brand-item{
+	display: inline-block;
+	position: relative;
+	margin-right: 20px;
+}
+.brand .brand-item:last-child{
+	margin-right: 0px;
+}
+.brand-item:hover .brand-desc{
+	opacity: .9
+}
+.brand-desc{
+	background-color: #333;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 35px;
+	opacity: 0;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+}
+.brand .brand-item img{
+	width: 80px;
+}
+/*Car list*/
+section.car-list .car-panel button.info{
+	margin-bottom: 20px;
+}
+/*Advenages*/
+.advantages .advantages-item{
+	margin-bottom: 30px;
+	padding: 5px 15px;
+	text-align: center;
+	min-height: 200px;
+}
+.advantages .advantages-item span {
+	font-size: 35px;
+	color: #CEA202;
+}
+/*Footer*/
+footer{
+	background-color: #EEEEEE;
+	position: absolute;
+	bottom: 0;
+	height: 200px;
+	width: 100%;
+	padding-top: 20px;
+}
+footer .bottom-menu li a{
+	color: #333333; 
+}
+footer .site-info{
+	text-align: right;
+}
+footer .phone{
+	font-size: 25px;
+	padding: 10px 0;
+}
+footer .soc-icons{
+	font-size: 21px;
+	margin-top: 10px;
+}
+footer .soc-icons a{
+	padding: 0 3px;
+	color: #333;
+}
+footer .soc-icons a:hover{
+	color: #000;
+}
+/*Detail*/
+section.detail-car h1 {
+	margin-bottom: 20px;
+}
+section.detail-car h3 {
+	margin-top: 0px;
+}
+section.detail-car .detail-car-content {
+	border: 1px solid #2C3E50;
+}
+section.detail-car .car-info {
+	background-color: #fbefff;
+	padding: 15px;
+}
+section.detail-car .description {
+	margin-top: 15px;
+}
+/*Page*/
+section.page .other-page {
+	background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    border-radius: 4px;
+    padding: 9px 14px;
+    margin-top: 30px;
+}
